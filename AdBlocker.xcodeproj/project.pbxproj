@@ -7,13 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1116B29D2EC3ED080059168D /* AdBlockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116B29C2EC3ED080059168D /* AdBlockerApp.swift */; };
-		1116B29F2EC3ED080059168D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116B29E2EC3ED080059168D /* ContentView.swift */; };
-		1116B2A12EC3ED0B0059168D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1116B2A02EC3ED0B0059168D /* Assets.xcassets */; };
-		1116B2A42EC3ED0B0059168D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1116B2A32EC3ED0B0059168D /* Preview Assets.xcassets */; };
 		1116B2AE2EC3ED0B0059168D /* AdBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116B2AD2EC3ED0B0059168D /* AdBlockerTests.swift */; };
 		1116B2B82EC3ED0B0059168D /* AdBlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116B2B72EC3ED0B0059168D /* AdBlockerUITests.swift */; };
 		1116B2BA2EC3ED0B0059168D /* AdBlockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116B2B92EC3ED0B0059168D /* AdBlockerUITestsLaunchTests.swift */; };
+		11F82C9D2EC6537A002E2C25 /* swift.mdc in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C602EC6537A002E2C25 /* swift.mdc */; };
+		11F82C9E2EC6537A002E2C25 /* AdBlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C622EC6537A002E2C25 /* AdBlockerUITests.swift */; };
+		11F82C9F2EC6537A002E2C25 /* AdBlockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C632EC6537A002E2C25 /* AdBlockerUITestsLaunchTests.swift */; };
+		11F82CA02EC6537A002E2C25 /* ClayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C672EC6537A002E2C25 /* ClayCard.swift */; };
+		11F82CA12EC6537A002E2C25 /* ClayTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C682EC6537A002E2C25 /* ClayTabBar.swift */; };
+		11F82CA22EC6537A002E2C25 /* ClayButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C692EC6537A002E2C25 /* ClayButtonStyle.swift */; };
+		11F82CA32EC6537A002E2C25 /* ClayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C6B2EC6537A002E2C25 /* ClayTheme.swift */; };
+		11F82CA42EC6537A002E2C25 /* SubscriptionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C6E2EC6537A002E2C25 /* SubscriptionState.swift */; };
+		11F82CA52EC6537A002E2C25 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C702EC6537A002E2C25 /* UserDefaultsKeys.swift */; };
+		11F82CA62EC6537A002E2C25 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C722EC6537A002E2C25 /* AppState.swift */; };
+		11F82CA72EC6537A002E2C25 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C732EC6537A002E2C25 /* AppEnvironment.swift */; };
+		11F82CA82EC6537A002E2C25 /* ProtectionManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C752EC6537A002E2C25 /* ProtectionManaging.swift */; };
+		11F82CA92EC6537A002E2C25 /* SubscriptionManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C762EC6537A002E2C25 /* SubscriptionManaging.swift */; };
+		11F82CAA2EC6537A002E2C25 /* ProtectionStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C782EC6537A002E2C25 /* ProtectionStateManager.swift */; };
+		11F82CAB2EC6537A002E2C25 /* UserDefaultsSubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C792EC6537A002E2C25 /* UserDefaultsSubscriptionManager.swift */; };
+		11F82CAC2EC6537A002E2C25 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C7D2EC6537A002E2C25 /* DashboardViewModel.swift */; };
+		11F82CAD2EC6537A002E2C25 /* DashboardModuleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C7F2EC6537A002E2C25 /* DashboardModuleTile.swift */; };
+		11F82CAE2EC6537A002E2C25 /* ShieldButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C802EC6537A002E2C25 /* ShieldButton.swift */; };
+		11F82CAF2EC6537A002E2C25 /* DashboardModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C822EC6537A002E2C25 /* DashboardModule.swift */; };
+		11F82CB02EC6537A002E2C25 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C842EC6537A002E2C25 /* DashboardView.swift */; };
+		11F82CB12EC6537A002E2C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C852EC6537A002E2C25 /* Assets.xcassets */; };
+		11F82CB22EC6537A002E2C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C872EC6537A002E2C25 /* Preview Assets.xcassets */; };
+		11F82CB32EC6537A002E2C25 /* AdBlockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C882EC6537A002E2C25 /* AdBlockerApp.swift */; };
+		11F82CB42EC6537A002E2C25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C892EC6537A002E2C25 /* ContentView.swift */; };
+		11F82CB52EC6537A002E2C25 /* proect_description.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C8B2EC6537A002E2C25 /* proect_description.md */; };
+		11F82CB62EC6537A002E2C25 /* 2_AdBlock_module.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C8D2EC6537A002E2C25 /* 2_AdBlock_module.md */; };
+		11F82CB72EC6537A002E2C25 /* 8_Paywalls.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C8E2EC6537A002E2C25 /* 8_Paywalls.md */; };
+		11F82CB82EC6537A002E2C25 /* 7_Settings.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C8F2EC6537A002E2C25 /* 7_Settings.md */; };
+		11F82CB92EC6537A002E2C25 /* 4_SmartGuard.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C902EC6537A002E2C25 /* 4_SmartGuard.md */; };
+		11F82CBA2EC6537A002E2C25 /* 6_PasswordManager.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C912EC6537A002E2C25 /* 6_PasswordManager.md */; };
+		11F82CBB2EC6537A002E2C25 /* 3_WiFi_security.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C922EC6537A002E2C25 /* 3_WiFi_security.md */; };
+		11F82CBC2EC6537A002E2C25 /* 5_SafeVault.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C932EC6537A002E2C25 /* 5_SafeVault.md */; };
+		11F82CBD2EC6537A002E2C25 /* 1_Dashboard.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C942EC6537A002E2C25 /* 1_Dashboard.md */; };
+		11F82CBE2EC6537A002E2C25 /* ac_dod.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C952EC6537A002E2C25 /* ac_dod.md */; };
+		11F82CBF2EC6537A002E2C25 /* ui_style.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C962EC6537A002E2C25 /* ui_style.md */; };
+		11F82CC02EC6537A002E2C25 /* ui_screens.md in Resources */ = {isa = PBXBuildFile; fileRef = 11F82C972EC6537A002E2C25 /* ui_screens.md */; };
+		11F82CC12EC6537A002E2C25 /* AdBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F82C9C2EC6537A002E2C25 /* AdBlockerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +68,49 @@
 
 /* Begin PBXFileReference section */
 		1116B2992EC3ED080059168D /* AdBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1116B29C2EC3ED080059168D /* AdBlockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockerApp.swift; sourceTree = "<group>"; };
-		1116B29E2EC3ED080059168D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1116B2A02EC3ED0B0059168D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1116B2A32EC3ED0B0059168D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1116B2A92EC3ED0B0059168D /* AdBlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdBlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1116B2AD2EC3ED0B0059168D /* AdBlockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockerTests.swift; sourceTree = "<group>"; };
 		1116B2B32EC3ED0B0059168D /* AdBlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdBlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1116B2B72EC3ED0B0059168D /* AdBlockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockerUITests.swift; sourceTree = "<group>"; };
 		1116B2B92EC3ED0B0059168D /* AdBlockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBlockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11F82C602EC6537A002E2C25 /* swift.mdc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swift.mdc; sourceTree = "<group>"; };
+		11F82C622EC6537A002E2C25 /* AdBlockerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdBlockerUITests.swift; sourceTree = "<group>"; };
+		11F82C632EC6537A002E2C25 /* AdBlockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdBlockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11F82C672EC6537A002E2C25 /* ClayCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClayCard.swift; sourceTree = "<group>"; };
+		11F82C682EC6537A002E2C25 /* ClayTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClayTabBar.swift; sourceTree = "<group>"; };
+		11F82C692EC6537A002E2C25 /* ClayButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClayButtonStyle.swift; sourceTree = "<group>"; };
+		11F82C6B2EC6537A002E2C25 /* ClayTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClayTheme.swift; sourceTree = "<group>"; };
+		11F82C6E2EC6537A002E2C25 /* SubscriptionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionState.swift; sourceTree = "<group>"; };
+		11F82C702EC6537A002E2C25 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		11F82C722EC6537A002E2C25 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		11F82C732EC6537A002E2C25 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		11F82C752EC6537A002E2C25 /* ProtectionManaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionManaging.swift; sourceTree = "<group>"; };
+		11F82C762EC6537A002E2C25 /* SubscriptionManaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionManaging.swift; sourceTree = "<group>"; };
+		11F82C782EC6537A002E2C25 /* ProtectionStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionStateManager.swift; sourceTree = "<group>"; };
+		11F82C792EC6537A002E2C25 /* UserDefaultsSubscriptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsSubscriptionManager.swift; sourceTree = "<group>"; };
+		11F82C7D2EC6537A002E2C25 /* DashboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		11F82C7F2EC6537A002E2C25 /* DashboardModuleTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardModuleTile.swift; sourceTree = "<group>"; };
+		11F82C802EC6537A002E2C25 /* ShieldButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShieldButton.swift; sourceTree = "<group>"; };
+		11F82C822EC6537A002E2C25 /* DashboardModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardModule.swift; sourceTree = "<group>"; };
+		11F82C842EC6537A002E2C25 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		11F82C852EC6537A002E2C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11F82C872EC6537A002E2C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11F82C882EC6537A002E2C25 /* AdBlockerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdBlockerApp.swift; sourceTree = "<group>"; };
+		11F82C892EC6537A002E2C25 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11F82C8B2EC6537A002E2C25 /* proect_description.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = proect_description.md; sourceTree = "<group>"; };
+		11F82C8D2EC6537A002E2C25 /* 2_AdBlock_module.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 2_AdBlock_module.md; sourceTree = "<group>"; };
+		11F82C8E2EC6537A002E2C25 /* 8_Paywalls.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 8_Paywalls.md; sourceTree = "<group>"; };
+		11F82C8F2EC6537A002E2C25 /* 7_Settings.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 7_Settings.md; sourceTree = "<group>"; };
+		11F82C902EC6537A002E2C25 /* 4_SmartGuard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 4_SmartGuard.md; sourceTree = "<group>"; };
+		11F82C912EC6537A002E2C25 /* 6_PasswordManager.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 6_PasswordManager.md; sourceTree = "<group>"; };
+		11F82C922EC6537A002E2C25 /* 3_WiFi_security.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 3_WiFi_security.md; sourceTree = "<group>"; };
+		11F82C932EC6537A002E2C25 /* 5_SafeVault.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 5_SafeVault.md; sourceTree = "<group>"; };
+		11F82C942EC6537A002E2C25 /* 1_Dashboard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 1_Dashboard.md; sourceTree = "<group>"; };
+		11F82C952EC6537A002E2C25 /* ac_dod.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ac_dod.md; sourceTree = "<group>"; };
+		11F82C962EC6537A002E2C25 /* ui_style.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ui_style.md; sourceTree = "<group>"; };
+		11F82C972EC6537A002E2C25 /* ui_screens.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ui_screens.md; sourceTree = "<group>"; };
+		11F82C982EC6537A002E2C25 /* AdBlocker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AdBlocker.xcodeproj; sourceTree = "<group>"; };
+		11F82C9C2EC6537A002E2C25 /* AdBlockerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdBlockerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +141,7 @@
 		1116B2902EC3ED080059168D = {
 			isa = PBXGroup;
 			children = (
-				1116B29B2EC3ED080059168D /* AdBlocker */,
+				11F82C5C2EC6537A002E2C25 /* AdBlocker */,
 				1116B2AC2EC3ED0B0059168D /* AdBlockerTests */,
 				1116B2B62EC3ED0B0059168D /* AdBlockerUITests */,
 				1116B29A2EC3ED080059168D /* Products */,
@@ -89,25 +156,6 @@
 				1116B2B32EC3ED0B0059168D /* AdBlockerUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1116B29B2EC3ED080059168D /* AdBlocker */ = {
-			isa = PBXGroup;
-			children = (
-				1116B29C2EC3ED080059168D /* AdBlockerApp.swift */,
-				1116B29E2EC3ED080059168D /* ContentView.swift */,
-				1116B2A02EC3ED0B0059168D /* Assets.xcassets */,
-				1116B2A22EC3ED0B0059168D /* Preview Content */,
-			);
-			path = AdBlocker;
-			sourceTree = "<group>";
-		};
-		1116B2A22EC3ED0B0059168D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1116B2A32EC3ED0B0059168D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		1116B2AC2EC3ED0B0059168D /* AdBlockerTests */ = {
@@ -125,6 +173,248 @@
 				1116B2B92EC3ED0B0059168D /* AdBlockerUITestsLaunchTests.swift */,
 			);
 			path = AdBlockerUITests;
+			sourceTree = "<group>";
+		};
+		11F82C5C2EC6537A002E2C25 /* AdBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C5D2EC6537A002E2C25 /* Instructions */,
+				11F82C5E2EC6537A002E2C25 /* .cursor */,
+				11F82C612EC6537A002E2C25 /* AdBlockerUITests */,
+				11F82C642EC6537A002E2C25 /* AdBlocker */,
+				11F82C8A2EC6537A002E2C25 /* ProjectDocs */,
+				11F82C982EC6537A002E2C25 /* AdBlocker.xcodeproj */,
+				11F82C9B2EC6537A002E2C25 /* AdBlockerTests */,
+			);
+			name = AdBlocker;
+			sourceTree = "<group>";
+		};
+		11F82C5D2EC6537A002E2C25 /* Instructions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Instructions;
+			sourceTree = "<group>";
+		};
+		11F82C5E2EC6537A002E2C25 /* .cursor */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C5F2EC6537A002E2C25 /* rules */,
+			);
+			path = .cursor;
+			sourceTree = "<group>";
+		};
+		11F82C5F2EC6537A002E2C25 /* rules */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C602EC6537A002E2C25 /* swift.mdc */,
+			);
+			path = rules;
+			sourceTree = "<group>";
+		};
+		11F82C612EC6537A002E2C25 /* AdBlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C622EC6537A002E2C25 /* AdBlockerUITests.swift */,
+				11F82C632EC6537A002E2C25 /* AdBlockerUITestsLaunchTests.swift */,
+			);
+			path = AdBlockerUITests;
+			sourceTree = "<group>";
+		};
+		11F82C642EC6537A002E2C25 /* AdBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C652EC6537A002E2C25 /* UI */,
+				11F82C6C2EC6537A002E2C25 /* Core */,
+				11F82C7A2EC6537A002E2C25 /* Features */,
+				11F82C852EC6537A002E2C25 /* Assets.xcassets */,
+				11F82C862EC6537A002E2C25 /* Preview Content */,
+				11F82C882EC6537A002E2C25 /* AdBlockerApp.swift */,
+				11F82C892EC6537A002E2C25 /* ContentView.swift */,
+			);
+			path = AdBlocker;
+			sourceTree = "<group>";
+		};
+		11F82C652EC6537A002E2C25 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C662EC6537A002E2C25 /* Components */,
+				11F82C6A2EC6537A002E2C25 /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		11F82C662EC6537A002E2C25 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C672EC6537A002E2C25 /* ClayCard.swift */,
+				11F82C682EC6537A002E2C25 /* ClayTabBar.swift */,
+				11F82C692EC6537A002E2C25 /* ClayButtonStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		11F82C6A2EC6537A002E2C25 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C6B2EC6537A002E2C25 /* ClayTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		11F82C6C2EC6537A002E2C25 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C6D2EC6537A002E2C25 /* Models */,
+				11F82C6F2EC6537A002E2C25 /* Storage */,
+				11F82C712EC6537A002E2C25 /* Environment */,
+				11F82C742EC6537A002E2C25 /* Protocols */,
+				11F82C772EC6537A002E2C25 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		11F82C6D2EC6537A002E2C25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C6E2EC6537A002E2C25 /* SubscriptionState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11F82C6F2EC6537A002E2C25 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C702EC6537A002E2C25 /* UserDefaultsKeys.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		11F82C712EC6537A002E2C25 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C722EC6537A002E2C25 /* AppState.swift */,
+				11F82C732EC6537A002E2C25 /* AppEnvironment.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		11F82C742EC6537A002E2C25 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C752EC6537A002E2C25 /* ProtectionManaging.swift */,
+				11F82C762EC6537A002E2C25 /* SubscriptionManaging.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		11F82C772EC6537A002E2C25 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C782EC6537A002E2C25 /* ProtectionStateManager.swift */,
+				11F82C792EC6537A002E2C25 /* UserDefaultsSubscriptionManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11F82C7A2EC6537A002E2C25 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C7B2EC6537A002E2C25 /* Dashboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		11F82C7B2EC6537A002E2C25 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C7C2EC6537A002E2C25 /* ViewModel */,
+				11F82C7E2EC6537A002E2C25 /* Components */,
+				11F82C812EC6537A002E2C25 /* Model */,
+				11F82C832EC6537A002E2C25 /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		11F82C7C2EC6537A002E2C25 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C7D2EC6537A002E2C25 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11F82C7E2EC6537A002E2C25 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C7F2EC6537A002E2C25 /* DashboardModuleTile.swift */,
+				11F82C802EC6537A002E2C25 /* ShieldButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		11F82C812EC6537A002E2C25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C822EC6537A002E2C25 /* DashboardModule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11F82C832EC6537A002E2C25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C842EC6537A002E2C25 /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11F82C862EC6537A002E2C25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C872EC6537A002E2C25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11F82C8A2EC6537A002E2C25 /* ProjectDocs */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C8B2EC6537A002E2C25 /* proect_description.md */,
+				11F82C8C2EC6537A002E2C25 /* Tasks */,
+				11F82C952EC6537A002E2C25 /* ac_dod.md */,
+				11F82C962EC6537A002E2C25 /* ui_style.md */,
+				11F82C972EC6537A002E2C25 /* ui_screens.md */,
+			);
+			path = ProjectDocs;
+			sourceTree = "<group>";
+		};
+		11F82C8C2EC6537A002E2C25 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C8D2EC6537A002E2C25 /* 2_AdBlock_module.md */,
+				11F82C8E2EC6537A002E2C25 /* 8_Paywalls.md */,
+				11F82C8F2EC6537A002E2C25 /* 7_Settings.md */,
+				11F82C902EC6537A002E2C25 /* 4_SmartGuard.md */,
+				11F82C912EC6537A002E2C25 /* 6_PasswordManager.md */,
+				11F82C922EC6537A002E2C25 /* 3_WiFi_security.md */,
+				11F82C932EC6537A002E2C25 /* 5_SafeVault.md */,
+				11F82C942EC6537A002E2C25 /* 1_Dashboard.md */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		11F82C992EC6537A002E2C25 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F82C9B2EC6537A002E2C25 /* AdBlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				11F82C9C2EC6537A002E2C25 /* AdBlockerTests.swift */,
+			);
+			path = AdBlockerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +507,12 @@
 			mainGroup = 1116B2902EC3ED080059168D;
 			productRefGroup = 1116B29A2EC3ED080059168D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 11F82C992EC6537A002E2C25 /* Products */;
+					ProjectRef = 11F82C982EC6537A002E2C25 /* AdBlocker.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1116B2982EC3ED080059168D /* AdBlocker */,
@@ -231,8 +527,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1116B2A42EC3ED0B0059168D /* Preview Assets.xcassets in Resources */,
-				1116B2A12EC3ED0B0059168D /* Assets.xcassets in Resources */,
+				11F82CB72EC6537A002E2C25 /* 8_Paywalls.md in Resources */,
+				11F82CB62EC6537A002E2C25 /* 2_AdBlock_module.md in Resources */,
+				11F82CB52EC6537A002E2C25 /* proect_description.md in Resources */,
+				11F82CC02EC6537A002E2C25 /* ui_screens.md in Resources */,
+				11F82C9D2EC6537A002E2C25 /* swift.mdc in Resources */,
+				11F82CBB2EC6537A002E2C25 /* 3_WiFi_security.md in Resources */,
+				11F82CB22EC6537A002E2C25 /* Preview Assets.xcassets in Resources */,
+				11F82CBD2EC6537A002E2C25 /* 1_Dashboard.md in Resources */,
+				11F82CBF2EC6537A002E2C25 /* ui_style.md in Resources */,
+				11F82CB82EC6537A002E2C25 /* 7_Settings.md in Resources */,
+				11F82CBA2EC6537A002E2C25 /* 6_PasswordManager.md in Resources */,
+				11F82CB12EC6537A002E2C25 /* Assets.xcassets in Resources */,
+				11F82CBC2EC6537A002E2C25 /* 5_SafeVault.md in Resources */,
+				11F82CB92EC6537A002E2C25 /* 4_SmartGuard.md in Resources */,
+				11F82CBE2EC6537A002E2C25 /* ac_dod.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +566,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1116B29F2EC3ED080059168D /* ContentView.swift in Sources */,
-				1116B29D2EC3ED080059168D /* AdBlockerApp.swift in Sources */,
+				11F82CA12EC6537A002E2C25 /* ClayTabBar.swift in Sources */,
+				11F82CA82EC6537A002E2C25 /* ProtectionManaging.swift in Sources */,
+				11F82CAD2EC6537A002E2C25 /* DashboardModuleTile.swift in Sources */,
+				11F82CA52EC6537A002E2C25 /* UserDefaultsKeys.swift in Sources */,
+				11F82CA22EC6537A002E2C25 /* ClayButtonStyle.swift in Sources */,
+				11F82CAA2EC6537A002E2C25 /* ProtectionStateManager.swift in Sources */,
+				11F82C9E2EC6537A002E2C25 /* AdBlockerUITests.swift in Sources */,
+				11F82CAB2EC6537A002E2C25 /* UserDefaultsSubscriptionManager.swift in Sources */,
+				11F82CC12EC6537A002E2C25 /* AdBlockerTests.swift in Sources */,
+				11F82CAC2EC6537A002E2C25 /* DashboardViewModel.swift in Sources */,
+				11F82CB02EC6537A002E2C25 /* DashboardView.swift in Sources */,
+				11F82CA72EC6537A002E2C25 /* AppEnvironment.swift in Sources */,
+				11F82C9F2EC6537A002E2C25 /* AdBlockerUITestsLaunchTests.swift in Sources */,
+				11F82CA62EC6537A002E2C25 /* AppState.swift in Sources */,
+				11F82CA42EC6537A002E2C25 /* SubscriptionState.swift in Sources */,
+				11F82CB32EC6537A002E2C25 /* AdBlockerApp.swift in Sources */,
+				11F82CAE2EC6537A002E2C25 /* ShieldButton.swift in Sources */,
+				11F82CB42EC6537A002E2C25 /* ContentView.swift in Sources */,
+				11F82CA92EC6537A002E2C25 /* SubscriptionManaging.swift in Sources */,
+				11F82CA02EC6537A002E2C25 /* ClayCard.swift in Sources */,
+				11F82CA32EC6537A002E2C25 /* ClayTheme.swift in Sources */,
+				11F82CAF2EC6537A002E2C25 /* DashboardModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
